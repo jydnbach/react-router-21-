@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <na>
+      <nav>
         <ul className={classes.list}>
           <li>
             <NavLink
@@ -30,7 +30,7 @@ function MainNavigation() {
             </NavLink>
           </li>
         </ul>
-      </na>
+      </nav>
     </header>
   );
 }
